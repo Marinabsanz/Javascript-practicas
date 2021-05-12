@@ -14,7 +14,7 @@ body {
   line-height: 100vh;
 }
 
-button {
+input {
   border: black solid 1px;
   vertical-align: middle;
   width: 100px;
