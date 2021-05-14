@@ -2,35 +2,23 @@
 
 //2 eventos 
 
-// alert ('Bienvenido a mi piano');
+//alert ('Bienvenido a mi piano');
 
-//vamos asignar evento a un elemento
 
 const buttonDo = document.querySelector(".js-do");
 const buttonRe= document.querySelector(".js-re");
+const buttonMi= document.querySelector(".js-mi");
+const buttonFa= document.querySelector(".js-fa");
+const buttonASol= document.querySelector(".js-sol");
+const buttonLa= document.querySelector(".js-la");
+const buttonSi= document.querySelector(".js-si");
 
 
-/* buttonDo.addEventListener('click', function () {
-    alert('Esta es la tecla DO');
-} )   ------- me lia */  
-//pruebo ahora más como en CLase: 
 
-/* function handleBoton () {
-   alert ('holasoy  la tecla DO')
+buttonDo.addEventListener ('click', reproduceSound() );
+//buttonDo.alert ('hola soy do'); no va
+ 
+function reproduceSound (event) {
+    let audio = document.querySelector (".js-DWaw");
+   
 }
-buttonDo.addEventListener ('click', handleBoton ); /*/
-
-buttonDo.addEventListener ('click', reproduceSound, true);
-
-function reproduceSound () {
-    const buttonDoWaw = document.querySelector('.js-DWaw') ;
-    buttonDoWaw.play();
-
-}
-/* function reproduceSound () {
-    function reproduceSound() 
-buttonRe.addEventListener ('click' reproduceSound, );
-const buttonReWaw = document.querySelector ('js-ReWaw');
-buttonReWaw.play();
-
-}*/
