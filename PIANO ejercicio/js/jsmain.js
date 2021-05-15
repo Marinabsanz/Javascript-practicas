@@ -2,7 +2,7 @@
 
 //2 eventos 
 
-//alert ('Bienvenido a mi piano');
+//alert ('Bienvenid@ a mi piano  :D');
 
 
 const buttonDo = document.querySelector(".js-do");
@@ -13,12 +13,19 @@ const buttonASol= document.querySelector(".js-sol");
 const buttonLa= document.querySelector(".js-la");
 const buttonSi= document.querySelector(".js-si");
 
+const buttons= document.querySelectorAll ('button');
+
+buttons.forEach ( 
+    button => button.addEventListener ('click', reproduceSound) 
+);
 
 
-buttonDo.addEventListener ('click', reproduceSound() );
-//buttonDo.alert ('hola soy do'); no va
- 
 function reproduceSound (event) {
-    let audio = document.querySelector (".js-DWaw");
-   
+    const button = event.target;
+    const note = button.dataset.note;
+
+    const audio = document.getElementById ('audio${note}') ;
+    audio.play();
+    console.log(audio);
+
 }

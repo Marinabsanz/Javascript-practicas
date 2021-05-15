@@ -9,16 +9,18 @@
 }
 
 body {
-  background: rgb(179, 238, 187);
+  background:black;
   text-align: center;
   line-height: 100vh;
 }
 
-input {
+button {
   border: black solid 1px;
   vertical-align: middle;
   width: 100px;
   height: 400px;
   font-size: 35px;
   color: black;
+  text-align: center;
 }
+
