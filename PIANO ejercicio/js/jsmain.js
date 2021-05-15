@@ -27,5 +27,12 @@ function reproduceSound (event) {
     const audio = document.getElementById ('audio${note}') ;
     audio.play();
     console.log(audio);
+}
+
+ function pulse () {
+document.addEventListener ('keydown', pulse ) ;
+const key = evt.key;
 
 }
+
+//NO ME SALE!!!!!!!!!!!!!!!!!!!!1
