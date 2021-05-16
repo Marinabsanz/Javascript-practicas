@@ -5,13 +5,13 @@
 //alert ('Bienvenid@ a mi piano  :D');
 
 
-const buttonDo = document.querySelector(".js-do");
-const buttonRe= document.querySelector(".js-re");
-const buttonMi= document.querySelector(".js-mi");
-const buttonFa= document.querySelector(".js-fa");
-const buttonASol= document.querySelector(".js-sol");
-const buttonLa= document.querySelector(".js-la");
-const buttonSi= document.querySelector(".js-si");
+// const buttonDo = document.querySelector(".js-do");
+// const buttonRe= document.querySelector(".js-re");
+// const buttonMi= document.querySelector(".js-mi");
+// const buttonFa= document.querySelector(".js-fa");
+// const buttonASol= document.querySelector(".js-sol");
+// const buttonLa= document.querySelector(".js-la");
+// const buttonSi= document.querySelector(".js-si");
 
 const buttons= document.querySelectorAll ('button');
 
@@ -24,7 +24,9 @@ function reproduceSound (event) {
     const button = event.target;
     const note = button.dataset.note;
 
-    const audio = document.getElementById ('audio${note}') ;
+    const audio = document.getElementById (`audio${note}`) ;
+    audio.pause();
+    audio.currentTime= 0;
     audio.play();
     console.log(audio);
 }
