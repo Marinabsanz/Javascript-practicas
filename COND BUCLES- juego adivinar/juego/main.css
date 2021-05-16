@@ -17,10 +17,25 @@ input {
 }
 
 .bola {
+  background-image: url(./images/bola.jpg);
   width: 100px;
   height: 100px;
+  background-size: cover;
+  margin-left: 180px;
 }
 
 .question {
-  border: solid 3px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 180px;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  color: blue;
+}
+
+.answer {
+  align-items: center;
+  text-align: center;
+  width: 100px;
 }
