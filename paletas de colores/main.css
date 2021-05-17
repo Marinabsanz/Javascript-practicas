@@ -1,0 +1,33 @@
+  * {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+
+
+
+  }
+.paletteop4 {
+    width: 150px;
+   
+    
+}
+
+.p1{
+    display: inline-block;
+    background-color: aqua;
+    width: 50px;
+}
+
+
+.p2{
+    display: inline-block;
+    background-color: brown;
+    width: 50px
+
+}
+
+.p3 {
+    display: inline-block;
+    background-color: blue;
+    width: 50px
+}
