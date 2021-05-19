@@ -3,7 +3,7 @@
 
 const result = document.querySelector(".js-result");
 const send = document.querySelector(".js-submit");
-//const randomNumber = getRandomNumber(1);
+//const randomNumber = getRandomNumber(1)-->>>tiene q ir dentro d la función
 
 
 function getRandomNumber() {
@@ -24,5 +24,6 @@ function toSend() {
     result.innerHTML = "Quizás"
   }
 }
-send.addEventListener("click", toSend);
-
+send.addEventListener("click", toSend, );
+//send.addEventListener ("keyup" "disable", toSend);
+// ¿¿como y donde aplicar el DISABLE TRUE O FALSE????????
