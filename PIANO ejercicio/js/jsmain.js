@@ -1,7 +1,5 @@
 'use strict'
 
-//2 eventos 
-
 //alert ('Bienvenid@ a mi piano  :D');
 
 
