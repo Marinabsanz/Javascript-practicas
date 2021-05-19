@@ -1,0 +1,5 @@
+fetch("./data/palette.json")
+
+
+
+
