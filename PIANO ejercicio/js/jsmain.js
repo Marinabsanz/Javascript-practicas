@@ -30,9 +30,9 @@ function reproduceSound (event) {
     console.log(audio);
 }
 
- function pulse () {
+ function pulse (event) {
 document.addEventListener ('keydown', pulse ) ;
-const key = evt.key;
-
+const key = event.key;
+console.log (pulse);
 }
 
