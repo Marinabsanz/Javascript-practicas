@@ -1,0 +1,12 @@
+{
+    "parser0ptions": {
+        "ecmaVersion": 6
+    },
+    "rules" {
+   "semi" : ["error", "always"]
+
+
+    }
+}
+
+
